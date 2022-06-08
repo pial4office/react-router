@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, NavLink } from 'react-router-dom';
 
 function App() {
   return (
@@ -8,6 +8,9 @@ function App() {
         <Route path="/" element={<h1>Home page</h1>} />
         <Route path="/hello" element={<h1>Hello page</h1>} />
       </Routes>
+      <NavLink to={''}>Home</NavLink> {/* 'or, /' */}
+      <br />
+      <NavLink to={'hello'}>Hello</NavLink> {/* or, /hello  */}
     </div>
   );
 }
