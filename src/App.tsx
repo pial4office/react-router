@@ -9,13 +9,13 @@ function App() {
       <h1>Routes</h1>
       <Routes>
         <Route path="/hello" element={<h1>Hello Page</h1>} />
+        <Route path="/" element={<Test />} />
         <Route path="/test" element={<Test />} />
       </Routes>
       <h1>Component</h1>
       <Link to="/hello">Hello Page</Link>
       <br />
       <Link to="/test">Test Page</Link>
-      <Test />
     </div>
   );
 }
