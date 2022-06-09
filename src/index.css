@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div:nth-child(even) {
+  margin: 10px;
+  border: 1px solid rgb(202, 255, 10);
+}
+
+div:nth-child(odd) {
+  margin: 10px;
+  border: 1px solid red;
+}
